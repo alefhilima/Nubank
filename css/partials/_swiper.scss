@@ -1,0 +1,104 @@
+.box {
+    max-width: $container-xl;
+    margin: 0 auto;
+
+    padding: 0px 24px;
+}
+
+.container-swiper {
+    max-width: $container-xl;
+    margin: 0 auto;
+
+    padding: 96px 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.swiper-slide {
+    max-width: 420px;
+
+    padding: 24px 36px;
+    margin: 0px 16px;
+    border-radius: 50px;
+
+    background-color: $white-normal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.button-next {
+    position: absolute;
+    right: 32px;
+    top: 24px;
+
+    width: 36px;
+    height: 36px;
+
+    cursor: pointer;
+    background-image: url(../../svg/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.button-prev {
+    position: absolute;
+    right: 88px;
+    top: 24px;
+
+    width: 36px;
+    height: 36px;
+
+    cursor: pointer;
+    background-image: url(../../svg/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotate(180deg);
+}
+
+.photo-profile {
+    width: 56px;
+    height: 56px;
+
+    border-radius: 50%;
+
+    background-image: url("../../img/people1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo-1 {
+    background-image: url("../../img/people1.png");
+}
+
+.photo-2 {
+    background-image: url("../../img/people2.png");
+}
+
+.photo-3 {
+    background-image: url("../../img/people3.png");
+}
+
+.photo-4 {
+    background-image: url("../../img/people4.png");
+}
+
+.photo-5 {
+    background-image: url("../../img/people5.png");
+}
+

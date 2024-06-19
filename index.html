@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nubank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="./js/svg-inject.min.js"></script>
+</head>
+<body>
+
+	<!--HEADER---------------->
+	<header id="header">
+			<!--NAVBAR MOBILE------------------>
+			<nav class="navbar-mobile">
+					<div class="bx" id="bx"></div>
+					<div class="logo">
+							<a href="">
+									<img src="svg/logonu.svg" alt="Logo da Nubank" onload="SVGInject(this)">
+							</a>
+					</div>
+					<a href="">Login</a>
+			</nav>
+
+			<!--NAVBAR DESKTOP------------------>
+			<nav class="navbar-desktop">
+					<div class="navbar-desktop-item-1">
+							<div class="logo">
+									<a href="">
+											<img src="svg/logonu.svg" alt="Logo da Nubank" onload="SVGInject(this)">
+									</a>
+							</div>
+							<ul class="menu-desktop">
+									<li class="menu-item" id="menu-item-1">
+											<a href="" class="nav-link-desktop">Nubank</a>
+											<ul class="dropdown-menu" id="dropdown-item-1">
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">O Nu</a>
+													</li>
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Carreiras</a>
+													</li>
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Imprensa</a>
+													</li>
+											</ul>
+									</li>
+
+									<li class="menu-item" id="menu-item-2">
+											<a href="" class="nav-link-desktop">Conta Digital</a>
+											<ul class="dropdown-menu" id="dropdown-item-2">
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Crie sua conta</a>
+													</li>
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Transferências</a>
+													</li>
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Rendimento</a>
+													</li>
+											</ul>
+									</li>
+
+									<li class="menu-item" id="menu-item-3">
+											<a href="" class="nav-link-desktop">Pra Você</a>
+											<ul class="dropdown-menu" id="dropdown-item-3">
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Comunidade</a>
+													</li>
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Rewards</a>
+													</li>
+													<li class="dropdown-item">
+															<a href="" class="nav-link-dropdown">Novidades</a>
+													</li>
+											</ul>
+									</li>
+							</ul>
+					</div>
+
+					<div class="navbar-desktop-item-2">
+							<a href="" class="btn mr-2">Quero ser Nubank</a>
+							<a href="" style="z-index: 99;">Login</a>
+					</div>
+			</nav>
+
+			<!--MENU-MOBILE------------->
+			<nav class="menu-mobile" id="menu-mobile">
+					<ul class="nav-list-mobile">
+							<li class="mb-1"><a href="" class="nav-link-mobile">Nubank</a></li>
+							<li class="mb-1"><a href="" class="nav-link-mobile">Conta Digital</a></li>
+							<li class="mb-1"><a href="" class="nav-link-mobile">Pra Você</a></li>
+							<li class="mb-1"><a href="" class="nav-link-mobile">Quero ser Nubank</a></li>
+							<li class="mb-1"><a href="" class="nav-link-mobile">Redes Sociais</a></li>
+
+							<li class="mt-3 flex-center">
+									<a href=""><img src="./svg/icon-facebook.svg" class="mx-1" alt="Icone do Facebook" onload="SVGInject(this)"></a>
+									<a href=""><img src="./svg/icon-youtube.svg" class="mx-1" alt="Icone do Youtube" onload="SVGInject(this)"></a>
+									<a href=""><img src="./svg/icon-instagram.svg" class="mx-1" alt="Icone do Instagram" onload="SVGInject(this)"></a>
+									<a href=""><img src="./svg/icon-twitter.svg" class="mx-1" lt="Icone do Twitter" onload="SVGInject(this)"></a>
+							</li>
+					</ul>
+			</nav>
+	</header>
+
+	<!--HERO------------->
+	<div class="bg-home">
+			<a href=""><img src="./svg/bg-home.svg" class="svg-bg-home" alt="Background" onload="SVGInject(this)"></a>
+	</div>
+	<main class="container hero py-5">
+			<div class="flex-item-1 py-3">
+					<h1>Ser Nubank é reiventar sua vida financeira.</h1>
+					<p class="my-2">
+							Conta com rendimento acima da poupança, cartão de crédito sem anuidade
+							e o melhor: resolva tudo pelo app.
+					</p>
+					<div class="flex-start">
+							<a href="" class="btn">Quero ser Nubank</a>
+							<a href=""><img src="./svg/appstore.svg" class="ml-1" alt="Icone do AppStore" onload="SVGInject(this)"></a>
+							<a href=""><img src="./svg/playstore.svg" class="ml-1" alt="Icone do PlayStore" onload="SVGInject(this)"></a>
+					</div>
+			</div>
+			<div class="flex-item-3 div-card flex-center py-4">
+					<a href=""><img src="./svg/icon-card.svg" class="icon-card-hero dropshadow" alt="Icone de cartão" onload="SVGInject(this)"></a>
+					<a href=""><img src="./svg/icon-mobile.svg" class="icon-mobile-hero dropshadow" alt="Icone de Smartphone" onload="SVGInject(this)"></a>
+					<a href=""><img src="./svg/icon-contactless.svg" class="icon-contactless-hero dropshadow" alt="Icone de rede" onload="SVGInject(this)"></a>
+					<div class="card"></div>
+			</div>
+	</main>
+
+	<!--SECTION PEOPLE------------->
+	<section class="container">
+			<div class="flex-item-4 flex-column">
+					<h5>Para todos</h5>
+					<h2 class="mt-2">Completo.</h2>
+					<p class="mt-2">
+							Resolva seu dia a dia pelo celular. Sem filas, sem anuidade, sem tarifas abusivas.
+							Cuide do seu dinheiro de um jeito simples. Somos eficientes para você usar seu
+							dinheiro com o que realmente importa, sem tarifas de manutenção.
+					</p>
+
+					<ul class="list mt-2">
+							<li class="list-item bg-icon-check">
+									<strong>100% gratuito</strong>
+									<p>Isso mesmo, você não paga apra abrir sua conta.</p>
+							</li>
+							<li class="list-item bg-icon-check">
+								<strong>Sem taxas ou cobranças.</strong>
+								<p>Não se preocupe com taxas adicionais ou anuidade.</p>
+							</li>
+							<li class="list-item bg-icon-check">
+									<strong>O Melhor suporte de todos.</strong>
+									<p>Segundo pesquisa, temos o melhor suporte pra você.</p>
+							</li>
+					</ul>
+					<p>
+							<a href="" class="link">Confira os benefícios</a>
+					</p>
+
+			</div>
+			<div class="flex-item-3 mx-2">
+					<img src="./svg/svg-people1.svg" alt="" onload="SVGInject(this)">
+			</div>
+			<div class="flex-item-1 flex-column mx-2 my-3">
+					<img src="./svg/svg-people2.svg" class="mx-2 my-2" id="people2" alt="" onload="SVGInject(this)">
+					<img src="./svg/svg-people3.svg" class="mx-2 my-2" alt="" onload="SVGInject(this)">
+			</div>
+	</section>
+
+	<!--SECTION BEST------------->
+	<section class="container">
+		<div class="best px-3 py-4">
+			<div class="flex-item-auto">
+				<h5>O melhor</h5>
+				<h2>Por que Nubank?</h2>
+			</div>
+			<div class="best-item flex-item-auto">
+				<img src="./svg/icon-cash.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+				<p class="mt-2 bold">Conta rende mais que a poupança</p>
+			</div>
+			<div class="best-item flex-item-auto">
+				<img src="./svg/icon-transfer.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+				<p class="mt-2 bold">Transferências e TEDs ilimitados</p>
+			</div>
+			<div class="best-item flex-item-auto">
+				<img src="./svg/icon-card.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+				<p class="mt-2 bold">Conta e cartão 100% gratuitos</p>
+			</div>
+			<div class="best-item flex-item-auto">
+				<img src="./svg/icon-phone.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+				<p class="mt-2 bold">Melhor suporte 24h do Brasil</p>
+			</div>
+		</div>
+	</section>
+
+	<!--SECTION DIGITAL ACCOUNT------------->
+	<section class="container">
+		<div class="flex-item-1 p-3">
+			<img src="./svg/fignu2.svg" class="icon w-auto" alt="" onload="SVGInject(this)">
+		</div>
+		<div class="flex-item-1">
+			<h5>Conta digital</h5>
+			<h2 class="mt-2">Tudo pelo App.</h2>
+			<p class="my-2">
+				Nossa conta digital com mais de 20 milhões de clientes em todo
+				o Brasil. Pague suas contas, ajuste seu limite, bloqueie e
+				desbloqueie o cartão quando quiser e acompanhe cada movimentação
+				em tempo real. Tudo pelo aplicativo.
+			</p>
+			<ul class="list my-2">
+				<li class="list-item bg-icon-mobile">
+					<strong>Tudo na palma da sua mão</strong>
+					<p>
+						Conta digital. Você resolve tudo pelo App. Tudo.
+					</p>
+				</li>
+				<li class="list-item bg-icon-time">
+					<strong>Sem filas ou burocracias</strong>
+					<p>
+						Investimos o melhor suporte pra isso. Não tem filas. 
+						Econômia de tempo,
+					</p>
+				</li>
+				<li class="list-item bg-icon-config">
+					<strong>Configure tudo no App.</strong>
+					<p>
+						Toda a configuração e acesso aos novos recursos a um
+						clique de distância.
+					</p>
+				</li>
+			</ul>
+			<div>
+				<a href="" class="link">Segura e sem complicações</a>
+			</div>
+		</div>
+	</section>
+
+	<!--SECTION CARD------------->
+	<section class="container">
+		<div class="flex-item-1">
+			<h5>seu roxinho</h5>
+			<h2 class="mt-2">Crédito e débito.</h2>
+			<p class="my-2">
+				Pode chamar ele de roxinho. Além disso, pode chamar ele de 
+				moderno, gratuito e prático também. Facilidade e segurança
+				para você e mais de 30 milhões de estabelecimentos, além dos
+				benefícios Mastercard.
+			</p>
+			<ul class="list my-2">
+				<li class="list-item bg-icon-contactless">
+					<strong>Tecnologia contactless</strong>
+					<p>
+						Tecnologia de pagamento por aproximação. Mais agilidade
+						no dia-a-dia.
+					</p>
+				</li>
+				<li class="list-item bg-icon-card">
+					<strong>Cartão virtual</strong>
+					<p>
+						Você pode gerar cartões virtuais no app para suas 
+						compras online. mais segurança.
+					</p>
+				</li>
+			</ul>
+			<div>
+				<a href="" class="link">Saiba mais</a>
+			</div>
+		</div>
+		<div class="flex-item-1 p-3">
+			<img src="./svg/fignu3.svg" alt="" onload="SVGInject(this)">
+		</div>
+	</section>
+
+	<!--SECTION SLIDER------------->
+	<section class="box">
+		<h5>Depoimentos</h5>
+		<h2>Todos amam o roxinho</h2>
+	</section>
+	<section class="container-swiper">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="photo-profile photo-1"></div>
+					<h4 class="my-1">Jorge Silva</h4>
+					<p class="my-1">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+						Doloremque aspernatur, rerum ad maiores quos aperiam 
+						voluptatibus illo dolore, hic molestias itaque expedita 
+						possimus iure quam. Iure soluta asperiores officiis sint.
+					</p>
+				</div>
+				<div class="swiper-slide">
+					<div class="photo-profile photo-2"></div>
+					<h4 class="my-1">Jorge Silva</h4>
+					<p class="my-1">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+						Doloremque aspernatur, rerum ad maiores quos aperiam 
+						voluptatibus illo dolore, hic molestias itaque expedita 
+						possimus iure quam. Iure soluta asperiores officiis sint.
+					</p>
+				</div>
+				<div class="swiper-slide">
+					<div class="photo-profile photo-3"></div>
+					<h4 class="my-1">Jorge Silva</h4>
+					<p class="my-1">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+						Doloremque aspernatur, rerum ad maiores quos aperiam 
+						voluptatibus illo dolore, hic molestias itaque expedita 
+						possimus iure quam. Iure soluta asperiores officiis sint.
+					</p>
+				</div>
+				<div class="swiper-slide">
+					<div class="photo-profile photo-4"></div>
+					<h4 class="my-1">Jorge Silva</h4>
+					<p class="my-1">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+						Doloremque aspernatur, rerum ad maiores quos aperiam 
+						voluptatibus illo dolore, hic molestias itaque expedita 
+						possimus iure quam. Iure soluta asperiores officiis sint.
+					</p>
+				</div>
+				<div class="swiper-slide">
+					<div class="photo-profile photo-5"></div>
+					<h4 class="my-1">Jorge Silva</h4>
+					<p class="my-1">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+						Doloremque aspernatur, rerum ad maiores quos aperiam 
+						voluptatibus illo dolore, hic molestias itaque expedita 
+						possimus iure quam. Iure soluta asperiores officiis sint.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="button-next"></div>
+		<div class="button-prev"></div>
+	</section>
+
+	<!--SECTION APP NUBANK------------->
+	<section class="container">
+		<div class="flex-item-1">
+			<h5>Faça sua conta</h5>
+			<h2 class="mt-2">Baixe. É gratuito.</h2>
+			<p class="my-2">
+				Vamos lá, junte-se aos mais de 20 milhões que escolheram o
+				Nubank. Conte com o banco digital que mais cresce no Brasil.
+				É de graça. É para todos. Clique e baixe o App.
+ 			</p>
+			<div class="flex-start">
+				<a href="">
+					<img src="./svg/app-store.svg" class="button-app w-auto" alt="" onload="SVGInject(this)">
+				</a>
+				<a href="">
+					<img src="./svg/google-play.svg" class="button-app w-auto ml-2" alt="" onload="SVGInject(this)">
+				</a>	
+			</div>
+		</div>
+		<div class="flex-item-1 p-3">
+			<img src="./svg/fignu4.svg" alt="" onload="SVGInject(this)">
+		</div>
+	</section>
+
+	<!--SECTION INVITE------------->
+	<div class="bg-invite flex-center relative">
+		<img src="./svg/fignu5.svg" class="w-auto svg-invite" alt="" onload="SVGInject(this)">
+
+		<section class="container">
+			<div class="flex-item-1 flex-center flex-column">
+				<h5>nuconta</h5>
+				<h2 class="mt-2">O melhor dos bancos digitais pra você.</h2>
+				<p class="my-2">
+					Vamos lá, junte-se aos mais de 20 milhões que escolheram o
+					Nubank. Conte com o banco digital que mais cresce no Brasil.
+					É de graça. É para todos. Clique e baixe o App.
+				 </p>
+				<div>
+					<a href="" class="btn mr-2">Quero ser Nubank</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!--FOOTER------------->
+	<footer>
+		<section class="container flex-top">
+			<div>
+				<h4 class="color-white weight-light">Nubank</h4>
+				<ul class="list mt-2 pt-2">
+					<li>
+						<a href="">Sobre nós</a>
+					</li>
+					<li>
+						<a href="">Carreiras</a>
+					</li>
+					<li>
+						<a href="">Perguntas frequentes</a>
+					</li>
+					<li>
+						<a href="">Contatos</a>
+					</li>
+					<li>
+						<a href="">Imprensa</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ml-4">
+				<h4 class="color-white weight-light">Produtos</h4>
+				<ul class="list mt-2 pt-2">
+					<li>
+						<a href="">Conta digital</a>
+					</li>
+					<li>
+						<a href="">Cartão de crédito</a>
+					</li>
+					<li>
+						<a href="">Rewards</a>
+					</li>
+					<li>
+						<a href="">Empréstimos</a>
+					</li>
+					<li>
+						<a href="">Conta PJ</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ml-4">
+				<h4 class="color-white weight-light">Fale conosco</h4>
+				<ul class="list mt-2 pt-2">
+					<li>
+						<a href="">0800 608 6236</a>
+					</li>
+					<li>
+						<a href="">meajuda@nubank.com.br</a>
+					</li>
+					<li>
+						<a href="">Atendimento 24h</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ml-4">
+				<h4 class="color-white weight-light">Explore mais</h4>
+				<ul class="list mt-2 pt-2">
+					<li>
+						<a href="">Comunidade</a>
+					</li>
+					<li>
+						<a href="">Blog</a>
+					</li>
+					<li>
+						<a href="">Newsletter</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ml-4">
+				<h4 class="color-white weight-light">Baixe o app</h4>
+				<div class="mt-2 pt-2 flex-start">
+					<a href="">
+						<img src="./svg/app-store.svg" class="button-app w-auto" alt="" onload="SVGInject(this)">
+					</a>
+					<a href="">
+						<img src="./svg/google-play.svg" class="button-app w-auto ml-2" alt="" onload="SVGInject(this)">
+					</a>	
+				</div>
+			</div>
+		</section>
+
+		<section class="container flex-spacebetween py-3 bt-purple">
+			<div class="flex-start">
+				<img src="./svg/logonu-white.svg" class="footer-logo" alt="" onload="SVGInject(this)">
+				<p class="color-white ml-2">
+					Nu Pagamentos S.A. 18.236.120/0001-58 <br>
+					Rua Capote Valente, 39 - São Paulo, SP - 05409-000
+				</p>
+			</div>
+			<div class="flex-start">
+				<a href="">
+					<img src="./svg/icon-facebook.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)">
+				</a>
+				<a href="">
+					<img src="./svg/icon-youtube.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)">
+				</a>
+				<a href="">
+					<img src="./svg/icon-instagram.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)">
+				</a>
+				<a href="">
+					<img src="./svg/icon-twitter.svg" class="icon-networks mx-1" alt="" onload="SVGInject(this)">
+				</a>
+			</div>
+		</section>
+	</footer>
+	
+	<!--JS------------->
+	<script src="./js/app.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="./js/slide.js"></script>
+
+</body>
+</html>

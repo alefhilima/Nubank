@@ -1,0 +1,19 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-cash">
+<rect id="Rectangle 1006" width="72" height="72" rx="17.0769" fill="#FEFBFF"/>
+<g id="Group 289">
+<path id="Vector" d="M36 19V52" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M43.5 25H32.25C30.8576 25 29.5223 25.5531 28.5377 26.5377C27.5531 27.5223 27 28.8576 27 30.25C27 31.6424 27.5531 32.9777 28.5377 33.9623C29.5223 34.9469 30.8576 35.5 32.25 35.5H39.75C41.1424 35.5 42.4777 36.0531 43.4623 37.0377C44.4469 38.0223 45 39.3576 45 40.75C45 42.1424 44.4469 43.4777 43.4623 44.4623C42.4777 45.4469 41.1424 46 39.75 46H27" stroke="url(#paint1_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="36.845" y1="23.455" x2="35.3216" y2="23.5082" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="42.21" y1="27.835" x2="28.3169" y2="41.5614" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+</defs>
+</svg>

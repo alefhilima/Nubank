@@ -1,0 +1,24 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-phone">
+<rect id="Rectangle 1006" width="72" height="72" rx="17.0769" fill="#FEFBFF"/>
+<g id="Group 489">
+<path id="Vector" d="M22 41.5V32.5C22 28.9196 23.4223 25.4858 25.9541 22.9541C28.4858 20.4223 31.9196 19 35.5 19C39.0804 19 42.5142 20.4223 45.0459 22.9541C47.5777 25.4858 49 28.9196 49 32.5V41.5" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M49 43C49 43.7956 48.6839 44.5587 48.1213 45.1213C47.5587 45.6839 46.7956 46 46 46H44.5C43.7044 46 42.9413 45.6839 42.3787 45.1213C41.8161 44.5587 41.5 43.7956 41.5 43V38.5C41.5 37.7044 41.8161 36.9413 42.3787 36.3787C42.9413 35.8161 43.7044 35.5 44.5 35.5H49V43ZM22 43C22 43.7956 22.3161 44.5587 22.8787 45.1213C23.4413 45.6839 24.2044 46 25 46H26.5C27.2956 46 28.0587 45.6839 28.6213 45.1213C29.1839 44.5587 29.5 43.7956 29.5 43V38.5C29.5 37.7044 29.1839 36.9413 28.6213 36.3787C28.0587 35.8161 27.2956 35.5 26.5 35.5H22V43Z" stroke="url(#paint1_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 477" d="M49 40.5C49.5868 50.9372 46 52.5 36 52.5" stroke="url(#paint2_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="44.815" y1="22.0375" x2="30.6789" y2="41.5907" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="44.815" y1="36.9175" x2="40.6065" y2="49.3917" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="47.0366" y1="42.12" x2="39.2971" y2="51.83" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+</defs>
+</svg>

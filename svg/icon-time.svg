@@ -1,0 +1,19 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-time">
+<rect id="Rectangle 1005" width="72" height="72" rx="17.0769" fill="#FBF8FC"/>
+<g id="Group 447">
+<path id="Vector" d="M36 52C44.8366 52 52 44.8366 52 36C52 27.1634 44.8366 20 36 20C27.1634 20 20 27.1634 20 36C20 44.8366 27.1634 52 36 52Z" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M36 26.3999V35.9999L42.4 39.1999" stroke="url(#paint1_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="47.04" y1="24.32" x2="26.08" y2="48.48" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="41.408" y1="28.1279" x2="34.0803" y2="32.3511" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+</defs>
+</svg>

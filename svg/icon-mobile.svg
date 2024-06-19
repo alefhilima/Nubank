@@ -1,0 +1,21 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-mobile">
+<g id="Group 347">
+<rect id="Rectangle 1013" width="72" height="72" rx="17.0769" fill="#FBF8FC"/>
+<g id="Group 345">
+<path id="Vector" d="M43.6 21H28.1C26.3879 21 25 22.3879 25 24.1V48.9C25 50.6121 26.3879 52 28.1 52H43.6C45.3121 52 46.7 50.6121 46.7 48.9V24.1C46.7 22.3879 45.3121 21 43.6 21Z" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M35.8501 45.8H35.8663" stroke="url(#paint1_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="43.3365" y1="25.185" x2="23.2896" y2="41.3603" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="35.8638" y1="45.935" x2="35.8391" y2="45.9355" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+</defs>
+</svg>

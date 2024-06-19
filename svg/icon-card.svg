@@ -1,0 +1,19 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-card">
+<rect id="Rectangle 1013" class="bg-icon-card" width="72" height="72" rx="17.0769" fill="#FBF8FC"/>
+<g id="Group 343">
+<path id="Vector" d="M49.0909 24H22.9091C21.3024 24 20 25.3024 20 26.9091V44.3636C20 45.9703 21.3024 47.2727 22.9091 47.2727H49.0909C50.6976 47.2727 52 45.9703 52 44.3636V26.9091C52 25.3024 50.6976 24 49.0909 24Z" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M20 32.7273H52" stroke="url(#paint1_linear)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="47.04" y1="27.1418" x2="33.1423" y2="49.1686" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="47.04" y1="32.8623" x2="47.0042" y2="34.1846" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A950C4"/>
+<stop offset="1" stop-color="#82269E"/>
+</linearGradient>
+</defs>
+</svg>
